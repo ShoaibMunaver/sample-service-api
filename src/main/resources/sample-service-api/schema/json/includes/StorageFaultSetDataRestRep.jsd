@@ -1,0 +1,16 @@
+{
+  "javaName" : "StorageFaultSetDataRestRep",
+  "type" : "object",
+  "id" : "StorageFaultSetDataRestRep.jsd",
+  "properties" : {
+    "id" : {
+      "type" : "string"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "protectionDomain" : {
+      "type" : "string"
+    }
+  }
+}

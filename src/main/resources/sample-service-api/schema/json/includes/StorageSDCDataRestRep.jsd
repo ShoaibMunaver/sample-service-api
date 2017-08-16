@@ -1,0 +1,29 @@
+{
+  "javaName" : "StorageSDCDataRestRep",
+  "type" : "object",
+  "id" : "StorageSDCDataRestRep.jsd",
+  "properties" : {
+    "id" : {
+      "type" : "string"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "sdcIp" : {
+      "type" : "string"
+    },
+    "sdcGuid" : {
+      "type" : "string"
+    },
+    "mdmConnectionState" : {
+      "type" : "string"
+    },
+    "volumeList" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "StorageSDCVolume.jsd"
+      }
+    }
+  }
+}

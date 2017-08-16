@@ -1,0 +1,34 @@
+{
+  "javaName" : "MasterDataRestRep",
+  "type" : "object",
+  "id" : "MasterDataRestRep.jsd",
+  "properties" : {
+    "port" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "versionInfo" : {
+      "type" : "string"
+    },
+    "ips" : {
+      "type": "array",
+        "items": {
+          "type": "string"
+        }
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "role" : {
+      "type" : "string"
+    },
+    "managementIPs" : {
+      "type": "array",
+        "items": {
+          "type": "string"
+        }
+    }
+  }
+}

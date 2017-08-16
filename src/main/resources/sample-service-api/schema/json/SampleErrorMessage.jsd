@@ -1,0 +1,26 @@
+{
+  "javaName" : "SampleErrorMessage",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "Sample Error message",
+  "description": "The message is sent when there is an error in the Sample PAQX.",
+  "_meta": {
+    "message": "com.dell.cpsd.sample.paqx.error",
+    "version": "1.0"
+  },
+  "properties":{
+    "messageProperties":{
+       "$ref":"includes/MessageProperties.jsd"
+    },
+    "errors": {
+        "type": "array",
+        "items": {
+            "$ref": "includes/Error.jsd"
+        }
+    }
+  },
+  "required": [
+    "errors",
+	"messageProperties"
+  ]
+}

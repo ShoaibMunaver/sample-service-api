@@ -1,0 +1,28 @@
+{
+  "javaName" : "Volume",
+  "type" : "object",
+  "properties" : {
+    "id" : {
+      "type" : "string"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "sizeInKb" : {
+      "format" : "utc-millisec"
+    },
+    "storagePool" : {
+      "type" : "object",
+      "$ref" : "StoragePool.jsd"
+    },
+    "storagePoolId" : {
+      "type" : "string"
+    },
+    "volumeType" : {
+      "type" : "string"
+    },
+    "vtreeId" : {
+      "type" : "string"
+    }
+  }
+}

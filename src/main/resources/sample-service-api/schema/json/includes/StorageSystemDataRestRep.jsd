@@ -1,0 +1,64 @@
+{
+  "javaName" : "StorageSystemDataRestRep",
+  "type" : "object",
+  "id" : "StorageSystemDataRestRep.jsd",
+  "properties" : {
+    "mdmMode" : {
+      "type" : "string"
+    },
+    "primaryMdmActorIpList" : {
+    "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "secondaryMdmActorIpList" : {
+    "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tiebreakerMdmIpList" : {
+    "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "systemVersionName" : {
+      "type" : "string"
+    },
+    "mdmClusterState" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "installId" : {
+      "type" : "string"
+    },
+    "mdmCluster" : {
+      "type" : "object",
+      "$ref" : "MdmClusterDataRestRep.jsd"
+    },
+    "version" : {
+      "type" : "string"
+    },
+    "sdcList" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "StorageSDCDataRestRep.jsd"
+      }
+    },
+    "sdsList" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "StorageSDSDataRestRep.jsd"
+      }
+    }
+  }
+}

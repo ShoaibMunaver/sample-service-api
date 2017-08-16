@@ -1,0 +1,13 @@
+{
+  "javaName" : "ConfigureNodeDataRestRep",
+  "type" : "object",
+  "id" : "ConfigureNodeDataRestRep.jsd",
+  "properties" : {    
+    "stepId" : {
+      "type" : "string"
+    }
+  },
+  "required": [
+    "stepId"
+    ]
+}

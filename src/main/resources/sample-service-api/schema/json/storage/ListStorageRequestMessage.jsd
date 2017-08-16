@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaName": "ListStorageRequestMessage",
+  "description": "This message comes from sample-paqx and gets translated into Southbound version of this message",
+  "_meta": {
+     "message":"com.dell.cpsd.sample.list.storage.request",
+     "version":"1.0"
+  },
+  "type" : "object",
+  "id" : "ListStorageRequestMessage.jsd",
+  "properties" : {
+    "messageProperties" : {
+      "type" : "object",
+      "$ref" : "../includes/MessageProperties.jsd"
+    },
+    "endpointURL" : {
+      "type" : "string"
+    },
+    "userName" : {
+      "type" : "string"
+    },
+    "password" : {
+      "type" : "string"
+    }
+  },
+  "required":[
+     "messageProperties",
+     "endpointURL"
+  ]
+}

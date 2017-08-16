@@ -1,0 +1,25 @@
+{
+  "javaName" : "StoragePoolDataRestRep",
+  "type" : "object",
+  "id" : "StoragePoolDataRestRep.jsd",
+  "properties" : {
+    "protectionDomainId" : {
+      "type" : "string"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "capacityAvailableForVolumeAllocationInKb" : {
+      "type" : "string"
+    },
+    "maxCapacityInKb" : {
+      "type" : "string"
+    },
+    "numOfVolumes" : {
+      "type" : "string"
+    }
+  }
+}

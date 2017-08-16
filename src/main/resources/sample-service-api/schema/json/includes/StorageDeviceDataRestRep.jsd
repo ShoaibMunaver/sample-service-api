@@ -1,0 +1,23 @@
+{
+  "javaName" : "StorageDeviceDataRestRep",
+  "type" : "object",
+  "id" : "StorageDeviceDataRestRep.jsd",
+  "properties" : {
+    "storagePool" : {
+      "type" : "object",
+      "$ref" : "StoragePoolDataRestRep.jsd"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "deviceCurrentPathName" : {
+      "type" : "string"
+    },
+    "storagePoolId" : {
+      "type" : "string"
+    }
+  }
+}

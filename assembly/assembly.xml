@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright © 2017 Dell Inc. or its subsidiaries.  All Rights Reserved  -->
+<assembly>
+    <id>schemas</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <outputDirectory>sample-service-api/schema/example</outputDirectory>
+            <directory>src/main/resources/sample-service-api/schema/example</directory>
+        </fileSet>
+        <fileSet>
+            <outputDirectory>sample-service-api/schema/json</outputDirectory>
+            <directory>src/main/resources/sample-service-api/schema/json</directory>
+        </fileSet>
+    </fileSets>
+</assembly>

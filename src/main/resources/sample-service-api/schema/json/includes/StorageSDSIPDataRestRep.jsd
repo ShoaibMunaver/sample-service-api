@@ -1,0 +1,13 @@
+{
+  "javaName" : "StorageSDSIPDataRestRep",
+  "type" : "object",
+  "id" : "StorageSDSIPDataRestRep.jsd",
+  "properties" : {
+    "role" : {
+      "type" : "string"
+    },
+    "ip" : {
+      "type" : "string"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "javaName" : "MdmClusterDataRestRep",
+  "type" : "object",
+  "id" : "MdmClusterDataRestRep.jsd",
+  "properties" : {
+    "clusterState" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "goodNodesNum" : {
+      "type" : "string"
+    },
+    "tieBreakers" : {
+      "type": "array",
+        "items": {
+          "type": "object",
+          "$ref" : "TieBreakersDataRestRep.jsd"
+        }
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "slaves" : {
+      "type": "array",
+        "items": {
+          "type": "object",
+            "$ref" : "SlavesDataRestRep.jsd"
+        }
+    },
+    "goodReplicasNum" : {
+      "type" : "string"
+    },
+    "master" : {
+      "type" : "object",
+      "$ref" : "MasterDataRestRep.jsd"
+    },
+    "clusterMode" : {
+      "type" : "string"
+    }
+  }
+}

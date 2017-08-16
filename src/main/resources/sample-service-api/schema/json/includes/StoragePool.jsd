@@ -1,0 +1,15 @@
+{
+  "javaName" : "StoragePool",
+  "type" : "object",
+  "properties" : {
+    "id" : {
+      "type" : "string"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "protectionDomainId" : {
+      "type" : "string"
+    }
+  }
+}
