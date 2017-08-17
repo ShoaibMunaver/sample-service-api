@@ -1,21 +1,21 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "javaName": "ListStorageResponseMessage",
+  "javaName": "SampleConfigureNodeResponseMessage",
   "description": "This message comes from the adapter and gets sent to sample-paqx",
   "_meta": {
-     "message":"com.dell.cpsd.sample.list.storage.response",
+     "message":"com.dell.cpsd.sample.configure.node.response",
      "version":"1.0"
   },
   "type" : "object",
-  "id" : "ListStorageResponseMessage.jsd",
+  "id" : "SampleConfigureNodeResponseMessage.jsd",
   "properties" : {
     "messageProperties" : {
       "type" : "object",
       "$ref" : "../includes/MessageProperties.jsd"
     },
-    "storageSystemDataRestRep" : {
+    "configureNodeDataRestRep" : {
       "type" : "object",
-      "$ref" : "../includes/StorageSystemDataRestRep.jsd"
+      "$ref" : "../includes/SampleConfigureNodeDataRestRep.jsd"
     }
   }
 }

@@ -1,0 +1,23 @@
+{
+  "javaName" : "SampleTaskRepresentation",
+  "type" : "object",
+  "id" : "SampleTaskRepresentation.jsd",
+  "properties" : {    
+    "uuid" : {
+      "type" : "string"
+    },
+	"status" : {
+      "type" : "object",
+	  "javaType" : "java.lang.Object"
+    },
+	"link" : {
+      "type" : "object",
+      "$ref" : "SampleLinkRepresentation.jsd"
+    }
+  },
+  "required":[
+     "uuid",
+	 "status",
+	 "link"
+  ]
+}

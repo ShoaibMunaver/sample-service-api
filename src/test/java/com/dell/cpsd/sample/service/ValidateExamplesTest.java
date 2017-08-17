@@ -29,8 +29,8 @@ public class ValidateExamplesTest
     @Test
     public void list_storage_request_message_validation() throws Exception
     {
-        String jsdName = "ListStorageRequestMessage";
-        String jsonName = "ListStorageRequestMessage";
+        String jsdName = "SampleListStorageRequestMessage";
+        String jsonName = "SampleListStorageRequestMessage";
         String errors = validateSchema(STORAGE_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
         assertNull(errors, errors);
     }
@@ -38,8 +38,8 @@ public class ValidateExamplesTest
 	@Test
     public void configure_node_request_message_validation() throws Exception
     {
-        String jsdName = "ConfigureNodeRequestMessage";
-        String jsonName = "ConfigureNodeRequestMessage";
+        String jsdName = "SampleConfigureNodeRequestMessage";
+        String jsonName = "SampleConfigureNodeRequestMessage";
         String errors = validateSchema(COMPUTE_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
         assertNull(errors, errors);
     }

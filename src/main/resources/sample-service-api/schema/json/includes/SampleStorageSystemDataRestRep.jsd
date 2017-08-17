@@ -1,0 +1,10 @@
+{
+  "javaName" : "SampleStorageSystemDataRestRep",
+  "type" : "object",
+  "id" : "SampleStorageSystemDataRestRep.jsd",
+  "properties" : {
+    "storageData" : {
+      "type" : "string"
+    }
+  }
+}

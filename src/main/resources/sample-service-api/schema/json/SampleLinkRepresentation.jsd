@@ -1,0 +1,16 @@
+{
+  "javaName" : "SampleLinkRepresentation",
+  "type" : "object",
+  "id" : "SampleLinkRepresentation.jsd",
+  "properties" : {    
+    "rel" : {
+      "type" : "string"
+    },
+	"href" : {
+      "type" : "string"
+    },
+	"method" : {
+      "type" : "string"
+    }
+  }
+}
