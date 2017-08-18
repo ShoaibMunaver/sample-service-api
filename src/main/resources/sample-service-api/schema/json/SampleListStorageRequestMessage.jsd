@@ -1,17 +1,17 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "javaName": "SampleConfigureNodeRequestMessage",
+  "javaName": "SampleListStorageRequestMessage",
   "description": "This message comes from sample-paqx and gets translated into Southbound version of this message",
   "_meta": {
-     "message":"com.dell.cpsd.sample.configure.node.request",
+     "message":"com.dell.cpsd.sample.list.storage.request",
      "version":"1.0"
   },
   "type" : "object",
-  "id" : "SampleConfigureNodeRequestMessage.jsd",
+  "id" : "SampleListStorageRequestMessage.jsd",
   "properties" : {
     "messageProperties" : {
       "type" : "object",
-      "$ref" : "../includes/MessageProperties.jsd"
+      "$ref" : "MessageProperties.jsd"
     },
     "endpointURL" : {
       "type" : "string"
@@ -25,8 +25,6 @@
   },
   "required":[
      "messageProperties",
-     "endpointURL",
-	 "userName",
-	 "password"
+     "endpointURL"
   ]
 }

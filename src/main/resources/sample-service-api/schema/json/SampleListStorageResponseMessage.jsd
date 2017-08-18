@@ -11,11 +11,11 @@
   "properties" : {
     "messageProperties" : {
       "type" : "object",
-      "$ref" : "../includes/MessageProperties.jsd"
+      "$ref" : "MessageProperties.jsd"
     },
     "storageSystemDataRestRep" : {
       "type" : "object",
-      "$ref" : "../includes/SampleStorageSystemDataRestRep.jsd"
+      "$ref" : "SampleStorageSystemDataRestRep.jsd"
     }
   }
 }

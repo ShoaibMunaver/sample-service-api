@@ -22,16 +22,13 @@ public class ValidateExamplesTest
 {
     public static final String SCHEMA_DIR   = "/sample-service-api/schema/json/";
     public static final String EXAMPLE_DIR  = "/sample-service-api/schema/example/";
-    public static final String INCLUDES_DIR = SCHEMA_DIR + "includes/";
-	public static final String STORAGE_DIR = SCHEMA_DIR + "storage/";
-	public static final String COMPUTE_DIR = SCHEMA_DIR + "compute/";
 
     @Test
     public void list_storage_request_message_validation() throws Exception
     {
         String jsdName = "SampleListStorageRequestMessage";
         String jsonName = "SampleListStorageRequestMessage";
-        String errors = validateSchema(STORAGE_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
     }
 	
@@ -40,7 +37,7 @@ public class ValidateExamplesTest
     {
         String jsdName = "SampleConfigureNodeRequestMessage";
         String jsonName = "SampleConfigureNodeRequestMessage";
-        String errors = validateSchema(COMPUTE_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
     }
 
